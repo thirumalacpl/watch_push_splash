@@ -1,0 +1,13 @@
+ curl -X POST \
+ -H "Authorization: key= AIzaSyAWsIj1ZJBSo00EnAC4Kl0g0tuMThqgJ5s" \
+ -H "Content-Type: application/json" \
+ -d '{ 
+ "registration_ids": [ 
+ "APA91bHTz6sF8sXRIcru6kMrnDayBjlUExTnm8qjlxiESk5z6RuO3ObmLfz9ICa8toLP2zuhMOvBmkfrt-_S9dkmCJ3WGoH3LP-3CnUMcnL1YA2_dG0X19hKB8VXhszbnaav_h1ibtPz"
+ ], 
+ "data": { 
+ "message": "push notification from thirumal "
+ },
+ "priority": "high"
+ }' \
+ https://android.googleapis.com/gcm/send
