@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.advs.manhummel.lpa" version="2.2.2">
-  <name>FOURTH FORCE</name>
-  <description>FOURTH FORCE</description>
+  <name>FOURTH FORCE </name>
+  <description>FOURTH FORCE </description>
   <author href="http://advicesync.com" email="support@advicesync.com">eImpressive</author>
   <content src="index.html"/>
  <!--  <preference name="permissions" value="none"/> -->
@@ -20,11 +20,7 @@
   <preference name="android-minSdkVersion" value="7"/>
   <preference name="android-installLocation" value="auto"/>
 
-<!-- <preference name="android-minSdkVersion" value="14" />
-
-<preference name="android-build-tool" value="gradle" />  -->
-
- <preference name="android-minSdkVersion" value="15" /> 
+<preference name="android-minSdkVersion" value="14" />
 
 <preference name="android-build-tool" value="gradle" /> 
 <!--   <gap:plugin name="org.apache.cordova.device-orientation"/>
